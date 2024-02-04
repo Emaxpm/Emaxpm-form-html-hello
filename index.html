@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c91819805f.js" crossorigin="anonymous"></script>
+    <title>Bootstrap Form</title>
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <header>
+
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                    <h2>Payment Form Example</h2>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="form-body">
+
+            <div class="alert alert-danger red-alert" role="alert">
+                Some fields are missing
+            </div>
+
+            <div class="row class-row">
+
+                <div class="col-md-5">
+                    <label for="validationCustom01" class="form-label">Card #</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="XXXXXXXXXXXXXXXX">
+
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom02" class="form-label">CVC #</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="000">
+
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Amount</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">$</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" placeholder="Amount">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row class-row">
+
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputPassword4">
+                </div>
+
+            </div>
+
+            <div class="row class-row">
+
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option>Costa Rica</option>
+                        <option>Colombia</option>
+                        <option>Brasil</option>
+                        <option>Argentina</option>
+                        <option>Bolivia</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputZip" class="form-label">Postal Code</label>
+                    <input type="number" class="form-control" id="inputZip">
+                </div>
+
+            </div>
+
+            <div class="row class-row">
+
+                <div class="col-md-4">
+
+                    <h4>We Accept:</h4>
+
+                    <div class="background">
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1"><i
+                                    class="fa-brands fa-cc-mastercard fa-2xl"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2"><i
+                                    class="fa-brands fa-cc-visa fa-2xl"></i></label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1"><i
+                                    class="fa-brands fa-cc-diners-club fa-2xl"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2"><i
+                                    class="fa-brands fa-cc-paypal fa-2xl"></i></label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-2"></div>
+
+                <div class="col-md-6">
+
+                    <h4>Message</h4>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                    </div>
+
+                    <p>Add any notes here.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="form-footer">
+
+            <button type="button" class="btn btn-secondary">Cancel</button>
+
+            <button type="button" class="btn btn-primary">Send</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

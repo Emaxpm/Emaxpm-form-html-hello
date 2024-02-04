@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+}
+
+.form-container{
+    width: 50%;
+    margin: auto;
+    border: solid 2px #222;
+    background-color: #fff;
+    margin-top: 3%;
+}
+
+.red-alert{
+    margin: 10px;
+}
+
+.class-row{
+    padding: 10px;
+}
+
+.background{
+    background-color: grey;
+    padding: 15px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.form-footer{
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-align: end;
+}
